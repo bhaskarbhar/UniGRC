@@ -1,0 +1,4 @@
+# CODEOWNERS file
+# Make @bhaskarbhar the code owner for the entire repository
+
+* @bhaskarbhar
