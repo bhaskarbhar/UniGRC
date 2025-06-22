@@ -1,0 +1,25 @@
+{
+  "framework": "CIS Controls",
+  "questions": [
+    {"id":1,"question":"Does your organization maintain an up-to-date inventory of all enterprise assets (hardware)?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":2,"question":"Is an inventory of all software authorized and actively managed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":3,"question":"Are vulnerabilities regularly identified and managed through scans and patching?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":4,"question":"Are administrative privileges restricted and monitored?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":5,"question":"Is secure configuration management enforced across hardware and software assets?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":6,"question":"Are audit logs collected, protected, and regularly reviewed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":7,"question":"Are email and web browser protections (e.g., filtering) in place?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":8,"question":"Is malware protection (AV/EDR) deployed and monitored on all endpoints?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":9,"question":"Is DNS filtering or protective DNS implemented?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":10,"question":"Are data recovery procedures tested regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":11,"question":"Is secure configuration applied to network infrastructure devices?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":12,"question":"Are boundary defenses like firewalls and proxies configured and monitored?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":13,"question":"Are security awareness and training activities regularly delivered to all employees?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":14,"question":"Are incident response plans documented and tested?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":15,"question":"Are penetration tests or red-team exercises conducted to evaluate defenses?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":16,"question":"Are application software security practices integrated into development pipelines?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":17,"question":"Are wireless access points secured using strong authentication and encryption?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":18,"question":"Are service provider risks assessed and managed continuously?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":19,"question":"Is multifactor authentication implemented for remote and privileged access?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":20,"question":"Are enterprise data classification and handling rules clearly defined and enforced?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]}
+  ]
+}

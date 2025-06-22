@@ -1,0 +1,25 @@
+{
+  "framework": "ISO 27001",
+  "questions": [
+    {"id":1,"question":"Does your organization have a formally documented Information Security Management System (ISMS)?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":2,"question":"Are roles and responsibilities for information security clearly assigned and communicated?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":3,"question":"Is an information security policy established and reviewed regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":4,"question":"Are risks to information assets identified, analyzed, and assessed systematically?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":5,"question":"Are risk treatment plans documented and implemented?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":6,"question":"Are physical security controls in place to protect information processing facilities?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":7,"question":"Are access control policies implemented and enforced?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":8,"question":"Is asset management practiced, including asset inventory and classification?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":9,"question":"Are employees provided with information security awareness training?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":10,"question":"Are cryptographic controls used to protect sensitive information?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":11,"question":"Are user access rights reviewed regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":12,"question":"Is there a process for managing security incidents and weaknesses?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":13,"question":"Are backup copies of critical information created and tested regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":14,"question":"Are supplier relationships and contracts addressing information security risks?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":15,"question":"Are changes to information systems controlled through formal change management?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":16,"question":"Are vulnerabilities identified through regular vulnerability assessments?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":17,"question":"Is business continuity planning integrated with the ISMS?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":18,"question":"Are networks protected against unauthorized access?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":19,"question":"Are logs and audit trails maintained and regularly reviewed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":20,"question":"Is compliance with legal, statutory, regulatory, and contractual requirements ensured?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]}
+  ]
+}

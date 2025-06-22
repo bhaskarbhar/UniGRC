@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Canva+Sans:wght@400;700&display=swap');
+
+.landing-page {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #545454 0%, #6a6a6d 50%, #545454 100%); /* Changed back to your original colors */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: 'Canva Sans', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+/* Add floating background elements for depth */
+.landing-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(106, 106, 109, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(84, 84, 84, 0.2) 0%, transparent 50%);
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero {
+  background: rgba(255, 255, 255, 0.8); /* Increased opacity for more whitish appearance */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 100vw;
+  height: 100vh;
+  clip-path: ellipse(70% 75% at 50% 0%);
+  padding: 100px 20px 80px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.3) 100%);
+  clip-path: ellipse(70% 75% at 50% 0%);
+  pointer-events: none;
+}
+
+.hero h1 {
+  font-size: 164px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #545454;
+  text-shadow: 
+    0 1px 3px rgba(255, 255, 255, 0.8),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.tagline {
+  font-size: 28px;
+  margin: 0 0 30px;
+  color: #545454;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+  position: relative;
+  z-index: 2;
+  font-weight: 600;
+}
+
+.try-button {
+  font-size: 30px;
+  padding: 18px 40px;
+  background: rgba(84, 84, 84, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.try-button:hover {
+  background: rgba(106, 106, 109, 0.9);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+a.try-button:hover {
+  color: white;
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-20px); 
+  }
+}
+
+/* Your existing .hero::after rule will now work */
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  animation: float 2s ease-in-out infinite reverse;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero {
+    clip-path: ellipse(85% 80% at 50% 0%);
+    padding: 80px 20px 60px;
+  }
+  
+  .hero h1 {
+    font-size: clamp(3rem, 15vw, 8rem);
+  }
+  
+  .tagline {
+    font-size: clamp(1.2rem, 5vw, 1.8rem);
+  }
+  
+  .try-button {
+    font-size: 24px;
+    padding: 15px 30px;
+  }
+}

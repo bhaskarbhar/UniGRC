@@ -1,0 +1,25 @@
+{
+  "framework": "NIST CSF",
+  "questions": [
+    {"id":1,"question":"Does the organization maintain an up-to-date inventory of physical devices and software assets?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":2,"question":"Are cybersecurity roles and responsibilities defined and communicated?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":3,"question":"Is a risk management strategy established and implemented?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":4,"question":"Are access permissions and authorizations managed and reviewed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":5,"question":"Are data-at-rest and data-in-transit protected via encryption?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":6,"question":"Are security awareness and training programs provided regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":7,"question":"Are maintenance and protective technologies implemented and monitored?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":8,"question":"Are anomalous activity detection systems in place?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":9,"question":"Are continuous security monitoring tools implemented?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":10,"question":"Is an incident response plan documented and tested regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":11,"question":"Are incidents reported and analyzed for root causes?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":12,"question":"Is a recovery plan in place for restoring systems after cybersecurity incidents?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":13,"question":"Are backups performed and tested regularly?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":14,"question":"Are supply chain risks identified and managed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":15,"question":"Are vulnerabilities scanned and remediated timely?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":16,"question":"Is multi-factor authentication implemented for critical systems?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":17,"question":"Are secure configurations applied to hardware and software?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":18,"question":"Is network segmentation used to reduce attack surface?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":19,"question":"Are audit logs collected and regularly reviewed?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]},
+    {"id":20,"question":"Is cybersecurity risk management integrated into enterprise risk processes?","likelihood_scale":[1,2,3,4,5],"impact_scale":[1,2,3,4,5]}
+  ]
+}
