@@ -1,0 +1,25 @@
+name: Bandit Security Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  bandit-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install Bandit
+      run: pip install bandit
+
+    - name: Run Bandit (fail on high severity)
+      run: bandit -r . -x tests --severity-level HIGH -ll -f txt
