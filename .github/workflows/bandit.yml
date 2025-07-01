@@ -22,4 +22,4 @@ jobs:
       run: pip install bandit
 
     - name: Run Bandit (fail on high severity)
-      run: bandit -r . -x tests --severity-level HIGH -ll -f txt
+      run: bandit -r . -x tests --severity-level high -f txt
