@@ -34,4 +34,6 @@ __pycache__/
 *.env
 
 #Trial backend folder
+
 backend
+app/firebasestorage.json

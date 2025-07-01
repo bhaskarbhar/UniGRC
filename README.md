@@ -35,5 +35,5 @@ npm run dev
 ```
 **Backend:**
 ```
-uvicorn trial:app --relaod
+uvicorn app.main:app --reload
 ```
