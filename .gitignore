@@ -7,14 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build output
 node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# VSCode (any level)
+.vscode/
+**/.vscode/
+
+# Editor settings
 .idea
 .DS_Store
 *.suo
@@ -22,6 +29,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-backend/.env
-backend/.vscode
-backend/__pycache__
+
+# Environment files
+*.env
+
+#Trial backend folder
+backend

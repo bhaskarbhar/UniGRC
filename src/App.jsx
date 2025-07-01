@@ -7,7 +7,7 @@ function App() {
         <section className="hero">
           <h1>UniGRC</h1>
           <div className="tagline"><b>Map Your Risk. Master Your Compliance.</b></div>
-          <a href="/framework" className="try-button">Try it</a>
+          <a href="/login" className="try-button">Try it</a>
         </section>
       </div>
     </div>
