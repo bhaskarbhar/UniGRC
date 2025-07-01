@@ -23,3 +23,4 @@ jobs:
 
     - name: Run Bandit (fail on high severity)
       run: bandit -r . -x tests --severity-level high -ll -f txt
+
