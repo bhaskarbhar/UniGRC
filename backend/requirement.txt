@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-pydantic
-motor
-python-dotenv
-requests
-markdown2
-weasyprint
-reportlab
